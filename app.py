@@ -24,6 +24,6 @@ def show_visit_count():
     
 @app.route('/version')
 def show_version():
-    str='#### App visitor count Docker v.0.0.2 #####<br/>This is the {} visitor.\n'.format(visit_count)
+    str='#### App visitor count Docker v.0.0.2 #####'
     return str
     
