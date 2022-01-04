@@ -19,4 +19,4 @@ def get_visit_count():
 @app.route('/')
 def show_visit_count():
     visit_count = get_visit_count()
-    return '### App visitor count Docker v.0.0.2 #####\n This is the {} visitor.\n'.format(visit_count)
+    return '### App visitor count Docker v.0.0.2 #####\n1% This is the {} visitor.\n'.format(visit_count)
